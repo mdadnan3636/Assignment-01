@@ -1,9 +1,55 @@
 .azeret-mono {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight:;
-    font-style: normal;
+    
+    
 }
+
+/* part 2,3, 4 common btn */
+
+ .common-btn{
+    color:rgba(13, 19, 33, 1);
+    background-color:#fefefe;
+    font-size: 16px;
+    font-weight: 600;
+    height: 65px;
+    width: 244px;
+    text-decoration: none;
+}
+
+.a{
+
+    color:rgba(13, 19, 33, 1);
+    background-color:#fefefe;
+    font-size: 16px;
+    font-weight: 600;
+    height: 65px;
+    width: 244px;
+    text-decoration: none;
+}
+
+
+
+
+.a-btn,.a{
+    text-decoration: none;
+}
+
+
+.part-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.part-paragraph{
+    color: rgba(13, 19, 33, 1);
+}
+
+
+
+
+
+
+
 
 /* nav-container-start */
 .nav-content{
@@ -115,3 +161,263 @@
 
 
 }
+
+
+
+
+
+
+
+/* main-section-started */
+
+.opinion-section{
+
+    height: 1393px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 74px;
+
+    
+    background-color:rgba(13, 19, 33, 0.02);
+    border-radius:16px;
+
+    /* margin: 74px 152px 90px 148px; */
+    
+    
+}
+.opinion-sec-container{
+    height:1233px ;
+    width: 946px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 80px 97px; */
+    margin: 0 auto;
+    /* border: 2px solid; */
+    margin-top: 74px;
+    margin-bottom: 90px;
+    /* background-color:white */
+    ;
+    
+
+
+}
+.all-part-content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.part1-content{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    border-radius: 16px;
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin-bottom: 48px;
+
+    
+
+    
+}
+
+.part2-content{
+   
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 946px;
+    height: 336px;
+    background-image: linear-gradient(to right, white, rgba(13, 19, 33, 0.02));
+    
+    
+    margin-bottom: 32px;
+
+    /* margin: 0 auto; */
+
+
+    
+    border-radius: 16px;
+        /* display: flex; */
+    /* flex-direction:column; */
+    
+}
+.part2-cont-container{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.part3-content{
+   
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 946px;
+    height: 336px;
+    background-image: linear-gradient(to left, white, rgba(13, 19, 33, 0.02));
+    
+    
+    margin-bottom: 32px;
+
+    /* margin: 0 auto; */
+
+
+    
+    border-radius: 16px;
+        /* display: flex; */
+    /* flex-direction:column; */
+    
+}
+.part3-cont-container{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.part4-content{
+   
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 946px;
+    height: 336px;
+    background-image: linear-gradient(to right, white, rgba(13, 19, 33, 0.02));
+    
+    
+    margin-bottom: 32px;
+
+    /* margin: 0 auto; */
+
+
+    
+    border-radius: 16px;
+        /* display: flex; */
+    /* flex-direction:column; */
+    
+}
+.part4-cont-container{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* opinion section end */
+
+
+/* inspiring section start */
+
+
+.ip-section{
+    height: 775px;
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.ip-title{
+    text-align: center;
+    margin-top: 0;
+}
+.ip-vdo{
+    width:1076px ;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    box-sizing: border-box;
+
+}
+/* inspiring section end*/
+
+.target-section{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.target-text{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.basic-web{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 48px;
+    justify-content:space-around;
+    gap: 24px;
+}
+
+.target-html{
+    background-color:rgba(255, 76, 30, 0.05);
+}
+
+.target-css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-js{
+    background-color:rgba(255, 223, 0, 0.05);
+}
+
+
+/* support */
+
+/* .bg-img{ */
+    /* background-image: url(./assets/handshake.jpg);
+    background-blend-mode: overlay;
+    background-size:  */
+
+
+
+
+    .footer-section{
+        /* height: 100px; */
+        /* width: 1440px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#f8f8f8;
+        justify-content: space-between;
+        padding: 150px;
+       
+        
+    }
+
+    .footer-img{
+        
+        box-sizing: border-box;
+        border-radius: 50%;
+        padding:24px;
+    }
